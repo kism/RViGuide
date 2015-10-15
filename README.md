@@ -2,7 +2,7 @@
 
 A guide to make a Raspberry Pi 2 &amp; Raspbian blind friendly.
 
-## Download
+## Download the base image
 
 (If there is a newer release of wheezy it will probably work fine, jesse is not working as of writing this)
 
@@ -10,7 +10,7 @@ https://downloads.raspberrypi.org/raspbian/images/raspbian-2015-05-07/2015-05-05
 
 https://downloads.raspberrypi.org/raspbian/images/raspbian-2015-05-07/2015-05-05-raspbian-wheezy.zip
 
-## Write
+## Write the image to a Micro SD
 
 ###Linux
 
@@ -18,12 +18,16 @@ https://downloads.raspberrypi.org/raspbian/images/raspbian-2015-05-07/2015-05-05
 sudo dd bs=1m if=<your image file>.img of=/dev/sdX
 ```
 ### Windows
+
 use win32diskimager 
+
 http://sourceforge.net/projects/win32diskimager/
 
 ## Raspbian Modifications
 
-### Piespeakup, Prerequisites and Necessary cli programs
+Make sure you exand the file system when prompted on your first startup.
+
+### Install Piespeakup, Prerequisites and Necessary cli programs
 
 ```bash
 sudo apt-get install git make gcc espeakup newsbeuter links mplayer zsh calibre
@@ -52,7 +56,7 @@ sudo chmod -x /etc/init.d/espeakup
 
 ```
 
-#### Optional keyboard layout change (default is UK)
+#### Change keyboard layout (Default is UK) (Optional)
 
 ```bash
 sudo dpkg-reconfigure keyboard-configuration #(optional, set to your liking)
@@ -76,7 +80,7 @@ echo "alias play='mplayer -quiet'" >> /home/pi/.bashrc
 
 #### zsh
 
-##### oh my zsh
+##### Oh My Zsh
 
 ```bash
 
@@ -112,6 +116,9 @@ touch .hushlogin
 
 ## Making an image (on another computer)
 
+Make sure you havent expanded the file system, if you have shrink it to 3gb
+
+
 ```bash
 
 cd 
@@ -132,7 +139,7 @@ dd if=/dev/sdX of=vibackup.img bs=1M count=3584
 
 https://www.dropbox.com/s/50jo0rgcrwqhioy/moby-dick.epub
 
-https://www.dropbox.com/s/3u7ijcmgun2q17t/rss.txt
+https://www.dropbox.com/s/3u7ijcmgun2q17t/rss.txt (link currently broken)
 
 https://www.dropbox.com/s/dzrdff7vzhtsfwg/alicepogo.mp3
 
