@@ -19,7 +19,7 @@ sudo dd bs=1m if=<your image file>.img of=/dev/sdX
 ```
 ### Windows
 
-use win32diskimager 
+Use win32diskimager.
 
 http://sourceforge.net/projects/win32diskimager/
 
