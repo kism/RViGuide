@@ -88,7 +88,7 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 
 ```
 
-edit ~/.oh-my-zsh/themes/robbyrussell.zsh-theme and replace the unicode arrow with the word that is to be said before each zsh prompt, i like using sh or zsh
+edit ~/.oh-my-zsh/themes/robbyrussell.zsh-theme and replace the unicode arrow with the word that is to be said before each zsh prompt, i like using sh or zsh.
 
 ##### .zshrc
 
@@ -116,7 +116,7 @@ touch .hushlogin
 
 ## Making an image (on another computer)
 
-Make sure you havent expanded the file system, if you have shrink it to 3gb
+Make sure you havent expanded the file system, if you have shrink it to 3gb.
 
 
 ```bash
