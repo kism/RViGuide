@@ -48,7 +48,7 @@ sudo ./build.sh
 
 cd ../../../
 
-rm -rf ttsprojects/
+rm -rf ttsprojects
 
 rm -rf /home/pi/python_games
 
@@ -121,7 +121,7 @@ Make sure you havent expanded the file system, if you have shrink it to 3gb
 
 ```bash
 
-cd /home/pi/
+cd /media/sdX/home/pi
 
 rm .bash_history
 
