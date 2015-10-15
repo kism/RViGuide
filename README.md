@@ -59,7 +59,7 @@ sudo chmod -x /etc/init.d/espeakup
 #### Change keyboard layout (Default is UK) (Optional)
 
 ```bash
-sudo dpkg-reconfigure keyboard-configuration #(optional, set to your liking)
+sudo dpkg-reconfigure keyboard-configuration
 ```
 
 ### Shell optimisation
