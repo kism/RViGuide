@@ -50,7 +50,7 @@ cd ../../../
 
 rm -rf ttsprojects/
 
-rm -rf python_games
+rm -rf /home/pi/python_games
 
 sudo chmod -x /etc/init.d/espeakup
 
