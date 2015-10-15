@@ -78,7 +78,7 @@ echo "alias play='mplayer -quiet'" >> /home/pi/.bashrc
 
 ```
 
-#### zsh
+#### Zsh
 
 ##### Oh My Zsh
 
