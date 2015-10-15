@@ -121,9 +121,11 @@ Make sure you havent expanded the file system, if you have shrink it to 3gb
 
 ```bash
 
-cd 
+cd /home/pi/
 
-rm -rf * (keep .bashrc)
+rm .bash_history
+
+rm .zsh_rc
 
 apt-get install zerofree
 
