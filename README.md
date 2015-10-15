@@ -17,6 +17,7 @@ https://downloads.raspberrypi.org/raspbian/images/raspbian-2015-05-07/2015-05-05
 ```bash
 sudo dd bs=1m if=<your image file>.img of=/dev/sdX
 ```
+
 ### Windows
 
 Use win32diskimager.
@@ -64,7 +65,9 @@ sudo dpkg-reconfigure keyboard-configuration
 
 ### Shell optimisation
 
-#### Bash (.bashrc)
+#### Bash 
+
+##### Editing .bashrc
 
 ```bash
 
@@ -90,7 +93,7 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 
 edit ~/.oh-my-zsh/themes/robbyrussell.zsh-theme and replace the unicode arrow with the word that is to be said before each zsh prompt, i like using sh or zsh.
 
-##### .zshrc
+##### Editing .zshrc
 
 ```bash
 
