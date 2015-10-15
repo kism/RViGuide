@@ -1,7 +1,9 @@
 # RViGuide
+
 A guide to make a Raspberry Pi 2 &amp; Raspbian blind friendly.
 
 ## Download
+
 (If there is a newer release of wheezy it will probably work fine, jesse is not working as of writing this)
 
 https://downloads.raspberrypi.org/raspbian/images/raspbian-2015-05-07/2015-05-05-raspbian-wheezy.zip.torrent
@@ -11,6 +13,7 @@ https://downloads.raspberrypi.org/raspbian/images/raspbian-2015-05-07/2015-05-05
 ## Write
 
 ###Linux
+
 ```bash
 sudo dd bs=1m if=<your image file>.img of=/dev/sdX
 ```
@@ -52,7 +55,7 @@ sudo chmod -x /etc/init.d/espeakup
 #### Optional keyboard layout change (default is UK)
 
 ```bash
-sudo dpkg-reconfigure keyboard-configuration (optional, set to your liking)
+sudo dpkg-reconfigure keyboard-configuration #(optional, set to your liking)
 ```
 
 ### Shell optimisation
