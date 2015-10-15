@@ -4,7 +4,7 @@ A guide to make a Raspberry Pi 2 &amp; Raspbian blind friendly.
 
 ## Download the base image
 
-(If there is a newer release of wheezy it will probably work fine, jesse is not working as of writing this)
+(If there is a newer release of Debian Wheezy it will probably work fine, Debian Jesse is not working as of writing this)
 
 https://downloads.raspberrypi.org/raspbian/images/raspbian-2015-05-07/2015-05-05-raspbian-wheezy.zip.torrent
 
