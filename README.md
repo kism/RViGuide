@@ -109,7 +109,11 @@ echo "alias play='mplayer -quiet'" >> /home/pi/.zshrc
 
 ### Enable Autologin
 
-Edit /etc/inittab as root and replace '1:2345:respawn:/sbin/getty 115200 tty1' with '1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1'
+```bash
+sudo nano /etc/inittab 
+```
+
+replace '1:2345:respawn:/sbin/getty[...]' with '1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1'
 
 ```bash
 
