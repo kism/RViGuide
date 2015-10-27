@@ -111,6 +111,8 @@ echo "alias play='mplayer -quiet'" >> /home/pi/.zshrc
 
 ### Enable Autologin
 
+**This currently will remove your ability to use crtl+c in the termal, will fix**
+
 Replace '1:2345:respawn:/sbin/getty[...]' with '1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1'
 
 ```bash
