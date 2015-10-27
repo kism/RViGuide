@@ -18,6 +18,8 @@ SHA-1: CB799AF077930FF7CBCFAA251B4C6E25B11483DE
 
 ###Linux
 
+Use dd
+
 ```bash
 sudo dd bs=1m if=<your image file>.img of=/dev/sdX
 ```
@@ -109,11 +111,13 @@ echo "alias play='mplayer -quiet'" >> /home/pi/.zshrc
 
 ### Enable Autologin
 
+Replace '1:2345:respawn:/sbin/getty[...]' with '1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1'
+
 ```bash
 sudo nano /etc/inittab 
 ```
 
-replace '1:2345:respawn:/sbin/getty[...]' with '1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1'
+Remove login messages
 
 ```bash
 
