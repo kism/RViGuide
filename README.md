@@ -6,9 +6,9 @@ A guide to make a Raspberry Pi 2 &amp; Raspbian blind friendly.
 
 (If there is a newer release of Debian Wheezy it will probably work fine, Debian Jesse is not working as of writing this)
 
-File: 2015-05-05-raspbian-wheezy.zip
+File: 2015-05-05-raspbian-wheezy.img
 
-SHA-1: CB799AF077930FF7CBCFAA251B4C6E25B11483DE
+SHA-1: FD11A319A8E93FC5F93902C67D337AD419706E5E
 
 [Download .torrent](https://downloads.raspberrypi.org/raspbian/images/raspbian-2015-05-07/2015-05-05-raspbian-wheezy.zip.torrent)
 
@@ -111,9 +111,7 @@ echo "alias play='mplayer -quiet'" >> /home/pi/.zshrc
 
 ### Enable Autologin
 
-**This currently will remove your ability to use crtl+c in the termal, will fix**
-
-Replace '1:2345:respawn:/sbin/getty[...]' with '1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1'
+In the file /etc/inittab add '--autologin pi' after '1:2345:respawn:/sbin/getty' and before '--noclear 38400 tty1'
 
 ```bash
 sudo nano /etc/inittab 
