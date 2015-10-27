@@ -33,7 +33,8 @@ Make sure you exand the file system when prompted on your first startup.
 ### Install Piespeakup, Prerequisites and Necessary cli programs
 
 ```bash
-sudo apt-get install git make gcc newsbeuter links mplayer zsh calibre espeak espeak-data libespeak1 libsonic0 alpine
+sudo apt-get update
+sudo apt-get install git make gcc zsh espeak espeak-data libespeak1 libsonic0 
 ```
 
 #### Piespeakup Setup
