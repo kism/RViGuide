@@ -119,33 +119,6 @@ touch .hushlogin
 
 ```
 
-## Making an image (on another computer)
 
-Make sure you havent expanded the file system, if you have shrink it to 3gb.
 
-```bash
-
-cd /media/sdX/home/pi
-
-rm .bash_history
-
-rm .zsh_rc
-
-apt-get install zerofree
-
-umount /dev/sdx#
-
-zerofree /dev/sdx#
-
-dd if=/dev/sdX of=vibackup.img bs=1M count=3584
-
-```
-
-## Demofiles
-
-https://www.dropbox.com/s/50jo0rgcrwqhioy/moby-dick.epub
-
-https://www.dropbox.com/s/3u7ijcmgun2q17t/rss.txt (link currently broken)
-
-https://www.dropbox.com/s/dzrdff7vzhtsfwg/alicepogo.mp3
 
