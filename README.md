@@ -57,8 +57,6 @@ rm -rf ttsprojects
 
 rm -rf /home/pi/python_games
 
-sudo chmod -x /etc/init.d/espeakup
-
 ```
 
 #### Change keyboard layout (Default is UK) (Optional)
