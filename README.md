@@ -6,9 +6,13 @@ A guide to make a Raspberry Pi 2 &amp; Raspbian blind friendly.
 
 (If there is a newer release of Debian Wheezy it will probably work fine, Debian Jesse is not working as of writing this)
 
-https://downloads.raspberrypi.org/raspbian/images/raspbian-2015-05-07/2015-05-05-raspbian-wheezy.zip.torrent
+File: 2015-05-05-raspbian-wheezy.zip
 
-https://downloads.raspberrypi.org/raspbian/images/raspbian-2015-05-07/2015-05-05-raspbian-wheezy.zip
+SHA-1: CB799AF077930FF7CBCFAA251B4C6E25B11483DE
+
+[Download .torrent](https://downloads.raspberrypi.org/raspbian/images/raspbian-2015-05-07/2015-05-05-raspbian-wheezy.zip.torrent)
+
+[Direct Download](https://downloads.raspberrypi.org/raspbian/images/raspbian-2015-05-07/2015-05-05-raspbian-wheezy.zip)
 
 ## Write the image to a Micro SD
 
@@ -20,9 +24,7 @@ sudo dd bs=1m if=<your image file>.img of=/dev/sdX
 
 ### Windows
 
-Use win32diskimager.
-
-http://sourceforge.net/projects/win32diskimager/
+Use [win32diskimager](http://sourceforge.net/projects/win32diskimager/).
 
 ## Raspbian Modifications
 
@@ -120,7 +122,6 @@ touch .hushlogin
 ## Making an image (on another computer)
 
 Make sure you havent expanded the file system, if you have shrink it to 3gb.
-
 
 ```bash
 
