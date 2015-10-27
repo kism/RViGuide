@@ -34,7 +34,8 @@ Make sure you exand the file system when prompted on your first startup.
 
 ```bash
 sudo apt-get update
-sudo apt-get install git make gcc zsh espeak espeak-data libespeak1 libsonic0 
+sudo apt-get upgrade
+sudo apt-get install git make gcc zsh mplayer2 espeak espeak-data libespeak1 libsonic0 
 ```
 
 #### Piespeakup Setup
