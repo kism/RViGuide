@@ -1,6 +1,6 @@
 # RViGuide
 
-A guide to make a Raspberry Pi 2 &amp; Raspbian blind friendly.
+A guide to make a Raspberry Pi 2 &amp; Raspbian suitable for use by the visually impaired.
 
 ## Download the base image
 
