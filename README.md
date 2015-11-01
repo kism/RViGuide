@@ -32,7 +32,7 @@ Use [win32diskimager](http://sourceforge.net/projects/win32diskimager/).
 
 Make sure you exand the file system when prompted on your first startup.
 
-### Install Piespeakup, Prerequisites and Necessary cli programs
+### Install PieSpeakUp, Prerequisites and Necessary cli programs
 
 ```bash
 sudo apt-get update
@@ -40,7 +40,7 @@ sudo apt-get upgrade
 sudo apt-get install git make gcc zsh mplayer2 espeak espeak-data libespeak1 libsonic0 
 ```
 
-#### Piespeakup Setup
+#### PieSpeakUp Setup
 
 ```bash
 git clone https://github.com/cromarty/ttsprojects.git
