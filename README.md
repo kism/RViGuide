@@ -105,6 +105,8 @@ echo '' >> /home/pi/.zshrc
 
 echo "amixer cset numid=3 1 > /dev/null" >> /home/pi/.zshrc
 
+echo "amixer set PCM 0 > /dev/null" >> /home/pi/.zshrc
+
 echo "alias play='mplayer -quiet'" >> /home/pi/.zshrc
 
 ```
