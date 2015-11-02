@@ -81,6 +81,8 @@ echo 'PS1="bash, \w: "' >> /home/pi/.bashrc
 
 echo "amixer cset numid=3 1 > /dev/null" >> /home/pi/.bashrc
 
+echo "amixer set PCM 0 > /dev/null" >> /home/pi/.bashrc
+
 echo "alias play='mplayer -quiet'" >> /home/pi/.bashrc
 
 ```
